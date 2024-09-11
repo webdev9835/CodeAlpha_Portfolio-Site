@@ -1,0 +1,329 @@
+*{
+margin-top: 0;
+padding: 0;  
+background-color: black;
+
+      
+}
+
+.header{
+height:5rem;
+top: 0;
+display: flex;
+text-decoration: none ;
+color: white;
+justify-content: space-between;
+align-items: center;
+left: 0;
+z-index: 100;
+filter: drop-shadow(10px);
+position: fixed;
+width: 100%;
+
+
+}
+
+.logo{
+    color: red;
+    text-decoration: solid;
+    font-size :3rem;
+    font-weight: 800;
+    padding-left: 15rem;
+    padding-right: 5rem;
+   
+
+}
+
+.logo:hover{
+   
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar a{
+    justify-content: flex-start;
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    color: white ;
+
+   
+}
+.navbar{
+    margin-right: 7rem;
+    
+}
+
+.navbar a:hover{
+    color: red;
+    text-decoration:underline;
+    scale: 1;
+  
+}
+
+.home{
+    height: 100vh;
+    position: relative;
+    justify-content: space-between;
+    background-color: url("C:\users\dell\Classroom\img1.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 15% 0;
+    color: white;
+
+}
+
+.home-link a{
+    display:inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    text-decoration: none;
+    background: transperent;
+    color: red;
+    width: fit-content;
+    height: fit-content;
+    margin: 0.5rem;
+    transition: 5s;
+    border: 2px solid red;
+    border-radius: 10px;
+
+
+}
+
+.home-link a i:hover{
+    color: red;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 10px rgba(209, 29, 92, 0.956);
+    
+
+}
+
+.home-img img{
+    border-radius: 50%;
+    height: 30rem;
+    width: 30rem;
+    border-style:none;
+   
+}
+.home-img img:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 15px red;
+}
+
+.home-content{
+    margin-right: 12rem;
+    font-size:2rem;
+
+
+}
+
+.home-content h1 span{
+    color: red;
+}
+
+.home-content h3 span{
+    color: red;
+}
+
+.skill{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    height:35rem;
+    
+}
+
+.skill h1{
+    font-size: 4rem;
+    background: transparent;
+  
+}
+.container{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 1rem;
+    width:fit-content;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: black;
+    align-content: center;
+   
+}
+
+ .container .row{
+    
+    gap: 1.8rem;
+    background-color: rgba(198, 35, 35, 0.836);
+    padding:1rem;
+
+
+}
+
+
+.container .row .skill-content{
+    border-radius: 5px;
+    color: red;
+    width: 7rem;
+    height: 7rem;
+    text-align:center; 
+    padding:0.2rem;
+    cursor: pointer;  
+    
+}
+
+
+
+.container .row .skill-content img{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    margin-top: 0.5rem;  
+    
+}
+
+.container .row .skill-content:hover{
+
+     box-shadow: 0 4px 10px red;
+     transform: scale(1.06);
+    
+
+}
+
+.skill h1:hover{
+   color: red;
+   text-decoration: underline;
+   transition: 0.2s ease-in-out;
+   transform: scale(1.1);
+  
+}
+
+.education{
+    position: relative;
+    height: 750px;
+
+}
+
+
+.education h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.education span{
+    color: red;
+}
+
+.education h1:hover{
+    box-shadow: 2px 2px 10px rgb(159, 42, 106);
+}
+
+
+.cards{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    
+}
+
+.card{
+    
+    height: 10rem;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px indianred;
+    margin: auto;
+    border-top: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;   
+    
+}
+  
+    
+    .card .content{
+        background-color: black;
+        color: white;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        
+    }
+    
+    
+    .card .content h3{
+      
+        color: red;
+    
+    }
+    
+    .card .content p{
+        color: red;
+        font-size: 1.5rem;
+    }
+    
+
+.contact{
+    background-color: grey;
+    height: 500px;
+}
+
+.contact .heading h1{
+    margin: 0;
+    color: red; 
+    background-color: grey;
+    text-align: center;
+    font-size:3rem;
+    font-weight: 800;
+
+}
+.contact h1 span{
+    color: Black;
+    background-color: grey;
+    font-weight: 800;
+}
+
+form{
+    height: 80%;
+    width: 40%;
+    margin: auto;
+    background-color: grey;
+}
+
+.form-i{
+    padding: 1rem;
+    background-color: grey;
+}
+.Email{
+    color: white;
+    background-color: grey;
+}
+
+.inp .form1{
+    height: 25px;
+    width: 100%;
+    background-color: grey;
+    border:2px solid black;
+    border-radius: 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding-top:2px; 
+    
+}
+
+.btn{
+   height: 2rem;
+    width: 5rem;
+    border-radius: 20px;
+    color: red;
+    font-weight: bold;
+    border: none;
+    margin-left: 15rem;
+   
+}
