@@ -3,7 +3,11 @@ margin-top: 0;
 padding: 0;  
 background-color: black;
 
-      
+}
+
+.home-img .img {
+
+object-fit: fill;
 }
 
 .header{
@@ -106,9 +110,10 @@ width: 100%;
 
 .home-img img{
     border-radius: 50%;
-    height: 30rem;
-    width: 30rem;
+    height: 26.5rem;
+    width: 25rem;
     border-style:none;
+    margin-left:10rem;
    
 }
 .home-img img:hover{
